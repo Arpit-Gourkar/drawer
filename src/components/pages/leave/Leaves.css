@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.leave-table {
+  margin-left: 250px;
+}
+
+.leave-content-box {
+  margin-top: 40px;
+  width: 70%;
+  margin-left: -25%;
+}
+@media screen and (max-width: 970px) {
+  .leave-content-box {
+    width: 75%;
+    margin-left: -30%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .leave-table {
+    margin-left: 0px;
+  }
+  .leave-content-box {
+    width: 100% !important;
+    margin-left: 0%;
+  }
+}

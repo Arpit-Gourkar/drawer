@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.project-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pro-content-box {
+  width: 50%;
+  margin-left: 10%;
+}
+.project-tabel {
+  /* margin-left: 300px; */
+}
+
+#btn-add-project {
+  /* margin-left: 250px; */
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+/* #addproject-model {
+  margin-top: 200px;
+} */
+#add-project-form {
+  padding: 20px;
+}
+#add-project-form > label {
+  color: black;
+  font-weight: 600;
+}
+#add-project-form > input {
+  width: 400px;
+  color: black;
+  padding: 5px;
+}
+@media screen and (max-width: 790px) {
+  .pro-content-box {
+    margin-left: 33%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .project-tabel {
+    margin-left: 0px;
+  }
+  #add-project {
+    margin-left: 0px;
+  }
+  .pro-content-box {
+    margin-left: 0px;
+    width: 100%;
+  }
+}
+
+/* 
+@media screen and (max-width: 1240px) {
+  #addproject-model {
+    margin-top: 100px;
+  }
+} */

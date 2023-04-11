@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.bgbox {
+  background: #34015f;
+  padding: 30px;
+  height: 100%;
+}
+.reg-form,
+.login-box {
+  position: relative;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgone {
+  margin-top: 20px;
+  width: 60%;
+  height: 90%;
+  border-radius: 10px;
+  border: 1px solid white;
+
+  box-shadow: rgba(214, 202, 202, 0.19) 0px 10px 20px,
+    rgba(215, 200, 200, 0.23) 0px 6px 6px;
+}
+
+.login-box > h2 {
+  color: white;
+}
+
+.login-form {
+  width: 60%;
+  height: 80%;
+  box-shadow: rgba(214, 202, 202, 0.19) 0px 10px 20px,
+    rgba(215, 200, 200, 0.23) 0px 6px 6px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.login-form > label {
+  margin-top: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+.login-form > input {
+  margin-top: 5px;
+  background: #34015f;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  font-size: 18px;
+}
+input[type="text"]:focus {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  font-size: 18px;
+  color: white;
+}
+
+input[type="password"]:focus {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  font-size: 18px;
+  color: white;
+}
+.late-join {
+  color: white;
+  font-size: 15px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.login-btn {
+  margin-top: 5px;
+  margin-bottom: 40px;
+  background-color: white;
+  color: purple;
+  width: 100px;
+  margin-left: 100px;
+  font-weight: 700;
+}

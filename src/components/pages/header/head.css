@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.navbar-row {
+  background: #000;
+}
+.logo-box,
+.logo-title {
+  padding: 5px;
+}
+#logo {
+  width: 150px;
+  height: 75px;
+  margin-left: 20px;
+}
+#title-logo {
+  background-image: linear-gradient(to right, #6da659, #377764, #175572);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  margin-top: 25px;
+}

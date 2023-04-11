@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.home-box {
+  background-color: rgba(0, 0, 0, 0.514);
+  background-image: url("../../vectors/bgcom1.avif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  color: aliceblue;
+}
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  background-color: transparent;
+}
+.title {
+  margin-left: -180px;
+  font-weight: 700;
+}
+.title2 {
+  font-weight: 700;
+}
+
+.title3 {
+  margin-left: 20px;
+  font-weight: 700;
+}
+
+.typed {
+  font-weight: 700;
+  font-size: 30px;
+  color: aliceblue;
+}
